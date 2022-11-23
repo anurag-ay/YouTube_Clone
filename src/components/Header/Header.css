@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1px;
+  margin-right: 5px;
+  padding: 3px;
+  align-items: center;
+}
+
+.header_right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px;
+}
+
+.header_right > h3:hover {
+  cursor: pointer;
+}
+
+.header_right > .youTube_icon > .MuiButtonBase-root {
+  margin: 6px;
+  padding: 3px;
+  transform: scale(1.8);
+  color: red;
+}
+
+.header_center {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+.header_center > form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  flex-shrink: 2;
+  justify-content: center;
+  padding: 2px;
+}
+
+.header_center > form > input {
+  display: flex;
+  flex: 0.6;
+  flex-shrink: 3;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 1px 2px 3px grey;
+  outline: none;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.header_center > form > button {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 3px grey;
+}
+
+.header_center > form > .MuiButtonBase-root {
+  margin-left: 10px;
+}
+
+.header_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px;
+}

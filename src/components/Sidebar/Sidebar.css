@@ -1,0 +1,46 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  margin-left: 1px;
+  margin-right: 5px;
+  padding: 3px;
+  overflow-y: scroll;
+}
+
+.sidebar__top {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  outline: none;
+  border: 0px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(225, 225, 225);
+}
+.btn > h3 {
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 1286px) {
+  .btn > h3 {
+    display: none;
+  }
+  .btn {
+    width: min-content;
+  }
+  .sidebar {
+    flex: none;
+    width: min-content;
+  }
+}
